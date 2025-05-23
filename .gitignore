@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+*.log
+package-lock.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ігноруємо тимчасові файли
+*.tmp
+*.log
+*.swp
+
+# Ігноруємо файли системи Windows
+Thumbs.db
+Desktop.ini
