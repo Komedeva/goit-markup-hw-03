@@ -45,12 +45,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  /* display: flex; */
 }
 
 /**HEADER**/
 .header-box {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 
 .navigation {
@@ -69,24 +69,23 @@ body {
 
 .navigation-links {
   display: flex;
+  gap: 40px;
 }
 
 .links-item {
-  gap: 40px;
-  margin-right: 40px;
 }
 
 .contacts {
   align-items: center;
-  padding: 24px 0px 24px 332px;
+  padding: 24px 0px;
 }
 
 .contacts-links {
   display: flex;
+  gap: 40px;
 }
 
 .contacts-links-item {
-  margin: 40px;
 }
 
 /* * HIDDEN **/
@@ -309,8 +308,9 @@ team-title
 
 .team-member {
   background-color: #fff;
-  gap: 24px;
   margin-right: 24px;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-member:last-child {
@@ -318,7 +318,7 @@ team-title
 }
 
 .member {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 /* .team-member-image {
@@ -362,19 +362,20 @@ team-title
   flex-wrap: wrap;
   column-gap: 24px;
   margin-right: 24px;
-  row-gap: 48px;
+  gap: 24px 48px;
 }
 
 .work-item {
-  margin-right: 24px;
+  margin-right: 0px;
+  width: calc((100% - 48px) / 3);
+  box-sizing: border-box;
 }
 
-.work-item:nth-child(3n) {
+/* .work-item:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 .bank-app {
-  width: calc((100% - 48px) / 3);
 }
 */
 */
@@ -399,6 +400,7 @@ team-title
 
 /**FOOTER**/
 .logo-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
