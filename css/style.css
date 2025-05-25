@@ -275,11 +275,10 @@ body {
 }
 
 .features-list:first-child {
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-item {
-  width: ;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /*
@@ -366,9 +365,7 @@ team-title
 .all-works {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  margin-right: 24px;
-  gap: 24px 48px;
+  gap: 48px 24px;
 }
 
 .work-item {
@@ -383,8 +380,6 @@ team-title
 
 .bank-app {
 }
-*/
-*/
 
 /* .portfolio-image {
 } */
