@@ -59,7 +59,6 @@ body {
 
 .navigation {
   display: flex;
-  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
@@ -91,7 +90,9 @@ body {
   gap: 40px;
 }
 
-.contacts-links-item {
+.contacts-links-item a {
+  padding: 24px 0;
+  display: inline-block;
 }
 
 /* * HIDDEN **/
@@ -365,7 +366,8 @@ team-title
 .all-works {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .work-item {
@@ -408,7 +410,7 @@ team-title
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #4d5ae5; !important; 
   margin-bottom: 16px;
 }
 
